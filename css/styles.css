@@ -2845,11 +2845,11 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
+  --bs-btn-color: #ffffff;
   --bs-btn-bg: #ffc800;
   --bs-btn-border-color: #ffc800;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #d9aa00;
+  --bs-btn-hover-bg: #1b1b1b;
   --bs-btn-hover-border-color: #cca000;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
@@ -11001,7 +11001,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: rgba(95, 85, 0, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
