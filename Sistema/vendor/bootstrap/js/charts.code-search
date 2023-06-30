@@ -1,0 +1,105 @@
+# Query: charts
+# ContextLines: 1
+
+29 results - 5 files
+
+Sistema\blank.html:
+ 
+
+Sistema\tables.html:
+
+
+Sistema\scss\sb-admin-2.scss:
+  16  @import "cards.scss";
+  17: @import "charts.scss";
+  18  @import "login.scss";
+
+Sistema\vendor\chart.js\Chart.bundle.js:
+   3536  
+   3537: 		// 1 animation per chart, so we are looping charts here
+   3538  		while (i < animations.length) {
+
+   3809  		// In order to correctly handle data addition/deletion animation (an thus simulate
+   3810: 		// real-time charts), we need to monitor these data modifications and synchronize
+   3811  		// the internal meta data accordingly.
+
+   5628  
+   5629: 	// gets the max border or hover width to properly scale pie charts
+   5630  	getMaxBorderWidth: function(arcs) {
+
+   6437  
+   6438: // Pie charts are Doughnut chart with different defaults
+   6439  var controller_pie = controller_doughnut;
+
+   6689  
+   6690: // Scatter charts use line controllers
+   6691  var controller_scatter = controller_line;
+
+   7498  			// If no explicit render height and style height, let's apply the aspect ratio,
+   7499: 			// which one can be specified by the user but also by charts as default option
+   7500  			// (i.e. options.aspectRatio). If not specified, use canvas aspect ratio of 2.
+
+   8343  	var xScale = element._xScale;
+   8344: 	var yScale = element._yScale || element._scale; // handle radar || polarArea charts
+   8345  	var index = element._index;
+
+   9241  			} else if (key === 'scale') {
+   9242: 				// used in polar area & radar charts since there is only one scale
+   9243  				target[key] = helpers$1.merge(tval, [core_scaleService.getScaleDefaults(sval.type), sval]);
+
+  10111  
+  10112: 		// Elements used to detect size change should not be injected for non responsive charts.
+  10113  		// See https://github.com/chartjs/Chart.js/issues/2210
+
+  10259   * for backward compatibility. Though, it can still be useful for plugins that
+  10260:  * would need to work on multiple charts?!
+  10261   */
+
+  12688  	// To get a "nice" value for the tick spacing, we will use the appropriately named
+  12689: 	// "nice number" algorithm. See https://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks
+  12690  	// for details.
+
+Sistema\vendor\chart.js\Chart.js:
+   3532  
+   3533: 		// 1 animation per chart, so we are looping charts here
+   3534  		while (i < animations.length) {
+
+   3805  		// In order to correctly handle data addition/deletion animation (an thus simulate
+   3806: 		// real-time charts), we need to monitor these data modifications and synchronize
+   3807  		// the internal meta data accordingly.
+
+   5624  
+   5625: 	// gets the max border or hover width to properly scale pie charts
+   5626  	getMaxBorderWidth: function(arcs) {
+
+   6433  
+   6434: // Pie charts are Doughnut chart with different defaults
+   6435  var controller_pie = controller_doughnut;
+
+   6685  
+   6686: // Scatter charts use line controllers
+   6687  var controller_scatter = controller_line;
+
+   7494  			// If no explicit render height and style height, let's apply the aspect ratio,
+   7495: 			// which one can be specified by the user but also by charts as default option
+   7496  			// (i.e. options.aspectRatio). If not specified, use canvas aspect ratio of 2.
+
+   8339  	var xScale = element._xScale;
+   8340: 	var yScale = element._yScale || element._scale; // handle radar || polarArea charts
+   8341  	var index = element._index;
+
+   9237  			} else if (key === 'scale') {
+   9238: 				// used in polar area & radar charts since there is only one scale
+   9239  				target[key] = helpers$1.merge(tval, [core_scaleService.getScaleDefaults(sval.type), sval]);
+
+  10107  
+  10108: 		// Elements used to detect size change should not be injected for non responsive charts.
+  10109  		// See https://github.com/chartjs/Chart.js/issues/2210
+
+  10255   * for backward compatibility. Though, it can still be useful for plugins that
+  10256:  * would need to work on multiple charts?!
+  10257   */
+
+  12684  	// To get a "nice" value for the tick spacing, we will use the appropriately named
+  12685: 	// "nice number" algorithm. See https://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks
+  12686  	// for details.
